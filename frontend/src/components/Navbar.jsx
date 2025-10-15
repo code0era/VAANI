@@ -12,11 +12,17 @@ const Navbar = () => {
           <div className="flex items-center gap-8">
             <NavLink to="/" className="flex items-center gap-2.5 hover:opacity-80 transition-all">
               <div className="size-9 rounded-lg bg-primary/10 flex items-center justify-center">
-                <MessageSquare className="w-5 h-5 text-primary" />
+                <img
+                  src="/VAANI.png"
+                  alt="VAANI Logo"
+                  className="w-5 h-5 object-contain"
+                />
+
               </div>
-              <h1 className="text-lg font-bold">Chatty</h1>
+              <h1 className="text-lg font-bold">VAANI</h1>
             </NavLink>
           </div>
+
 
           <div className="flex items-center gap-2">
             <NavLink
