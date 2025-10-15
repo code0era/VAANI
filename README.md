@@ -1,6 +1,6 @@
 # VAANI - Real-Time Chat Application
-DEPLOYED LINK : https://vaani-7vyj.onrender.com
 <img width="425" height="446" alt="Screenshot 2025-10-15 204317" src="https://github.com/user-attachments/assets/e81b81be-82bd-4396-b3ec-b93a79def177" />
+DEPLOYED LINK : https://vaani-7vyj.onrender.com
 
 ## Overview
 
