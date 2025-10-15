@@ -26,11 +26,11 @@ app.use(express.json({ limit: "100mb" })); // increase limit to avoid "payload t
 
 app.use("/api/auth", authRoutes)
 app.use("/api/messages", messageRoutes)
-if(process.env.NODE_ENV === "production"){
-  app.use(express.static(path.join(__dirname,"../frontend/dist")));
-  
-  app.get("/.*/",(req,res)=>{
-    res.sendFile(path.join(__dirname,"../frontend", "dist","index.html"));
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "../frontend/dist")));
+
+  app.get("/:path(*)", (req, res) => {
+    res.sendFile(path.join(__dirname, "../frontend", "dist", "index.html"));
   })
 }
 
